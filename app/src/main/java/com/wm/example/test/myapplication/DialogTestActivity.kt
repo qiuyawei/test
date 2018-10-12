@@ -24,6 +24,7 @@ class DialogTestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dialog_test)
         ButterKnife.bind(this)
+        Log.i("TAG","哈哈");
     }
 
 
