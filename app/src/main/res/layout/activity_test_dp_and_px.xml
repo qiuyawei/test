@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestDpAndPxActivity">
+    <EditText
+        android:id="@+id/et_dpValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入一个dp数值"/>
+    <Button
+        android:id="@+id/bt_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/et_dpValue"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_button"
+        android:text="点击dp--->px"/>
+    <TextView
+        android:id="@+id/tv_convertValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/bt_convert"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16dp"
+        android:text="显示转化后的px值"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试网络基本请求"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <Button
+            android:id="@+id/bt_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="点击测试倒计时"
+            app:layout_constraintTop_toBottomOf="@+id/bt_one" />
+
+        <Button
+            android:id="@+id/bt_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试自定义View"
+            app:layout_constraintTop_toBottomOf="@+id/bt_two"
+
+
+            />
+
+        <Button
+            android:id="@+id/bt_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试高度占比30%的轮播广告"
+            app:layout_constraintTop_toBottomOf="@+id/bt_three"
+
+            />
+
+        <Button
+            android:id="@+id/bt_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试webView"
+            app:layout_constraintTop_toBottomOf="@+id/bt_four"
+
+            />
+
+        <Button
+            android:id="@+id/bt_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试新建文件夹，名字是当前系统时间龊"
+            app:layout_constraintTop_toBottomOf="@+id/bt_five" />
+
+        <Button
+            android:id="@+id/bt_seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试dp和px的关系"
+            app:layout_constraintTop_toBottomOf="@+id/bt_six" />
+
+        <Button
+            android:id="@+id/bt_eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="会滚动的页面"
+            app:layout_constraintTop_toBottomOf="@+id/bt_seven" />
+
+        <Button
+            android:id="@+id/bt_nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="@string/title_activity_bottom_navigation"
+            app:layout_constraintTop_toBottomOf="@+id/bt_eight" />
+
+        <Button
+            android:id="@+id/bt_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试RecycleView"
+            app:layout_constraintTop_toBottomOf="@+id/bt_nine" />
+        <Button
+            android:id="@+id/bt_eleven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试CardView"
+            app:layout_constraintTop_toBottomOf="@+id/bt_ten" />
+        <Button
+            android:id="@+id/bt_tweleve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试动画"
+            app:layout_constraintTop_toBottomOf="@+id/bt_eleven" />
+        <Button
+            android:id="@+id/bt_thirten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:text="测试弹框"
+            app:layout_constraintTop_toBottomOf="@+id/bt_tweleve" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>
